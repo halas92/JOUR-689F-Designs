@@ -43,7 +43,9 @@ i.fas.fa-search::before {margin-right: 8px; display: inline-block; border-radius
 .byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auoto;}
 
 .content {max-width: 1600px; margin: 0 auto;}
-.col-sm-6 {border-right: 1px solid #e2e2e2;}
+.col-sm-6 {margin: 0 auto;;}
+#story1 {border-right: 1px solid #e2e2e2; padding-right: 10px;}
+#story2 {margin: 0 auto; width:100%;}
 
 
 #photo1, #photo2, #photo3 {width: 100%;}
