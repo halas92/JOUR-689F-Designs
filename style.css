@@ -20,9 +20,10 @@
 a:hover {text-decoration: underline; color: black;}
 a {color: black;}
 a.nav-link {color: black; font-weight: 700;}
-a.nav-link a:hover {text-transform: underline;}
+a.nav-link:hover {text-decoration: underline;}
 a.navbar-title {display: inline-block; border-radius: 3px; margin: 0 auto; text-align: center;}
 button.login {background-color: #6288a5; border: 1px solid #326891; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 11px; font-weight: 700; padding: 11px 12px 8px; border-radius: 3px; letter-spacing: .05em; line-height: 11px; float:right; margin-left: 20px;}
+button.login:hover {background-color: #326891;}
 
 .title {font-family: 'Georgia', 'Times New Roman', times, serif; font-weight: 900; color: black; font-size: 48px; margin-top: 100px; line-height: 48px;}
 .subtitle {font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 17px; color: rgb(102, 102, 102); font-weight: 400; line-height: 23px; border-bottom: 1px solid #bfbfbf; padding-bottom: 15px;}
@@ -43,9 +44,9 @@ i.fas.fa-search::before {margin-right: 8px; display: inline-block; border-radius
 
 .content {max-width: 1600px; margin: 0 auto;}
 
-#photo1, #photo2, #photo3 {width: 100%; max-width: 900px; margin: 0 auto;}
-.photos {text-align: left; margin: 0 auto; margin-top: 30px; max-width: 800; width: 100%; display: inline-block;}
-.caption {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; text-align: right; width: 33%; color: rgb(179, 179, 179);}
+#photo1, #photo2, #photo3 {width: 450;}
+.photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
+.caption {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179);}
 .summary {margin-bottom: 5px;}
 
 #footer {width: 100%;
