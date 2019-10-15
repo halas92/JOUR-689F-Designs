@@ -39,14 +39,16 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 i.fas.fa-bars::before {margin-right: 8px; margin-left: 60px; padding-right: 10px; display: inline-block; border-radius: 3px;}
 i.fas.fa-search::before {margin-right: 8px; display: inline-block; border-radius: 3px;}
 
-.headline {font-family: 'Georgia', 'Times New Roman', serif; font-size: 26px; font-weight: 200; color: black; text-align: left;}
-.byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179);}
+.headline {font-family: 'Georgia', 'Times New Roman', serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto;}
+.byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auoto;}
 
 .content {max-width: 1600px; margin: 0 auto;}
+.col-sm-6 {border-right: 1px solid #e2e2e2;}
 
-#photo1, #photo2, #photo3 {width: 450;}
+
+#photo1, #photo2, #photo3 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
-.caption {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179);}
+.caption {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); text-align: right;}
 .summary {margin-bottom: 5px;}
 
 #footer {width: 100%;
