@@ -21,7 +21,8 @@ a {color: black;}
 a.nav-link {color: black; font-weight: 700;}
 a.nav-link:hover {text-decoration: underline;}
 a.navbar-title {display: inline-block; border-radius: 3px; margin: 0 auto; text-align: center;}
-button.login {background-color: #6288a5; border: 1px solid #326891; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 11px; font-weight: 700; padding: 11px 12px 8px; border-radius: 3px; letter-spacing: .05em; line-height: 11px; float:right; margin-left: 20px;}
+.nav-title {margin: 0 auto; list-style-type: none;}
+button.login {background-color: #6288a5; border: 1px solid #326891; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 11px; font-weight: 700; padding: 11px 12px 8px; border-radius: 3px; letter-spacing: .05em; line-height: 11px; float:right; margin-left: 20px; margin-right: 60px;}
 button.login:hover {background-color: #326891;}
 button.menu-bars:hover {background color: #d4d4d4; border-radius: 3px; border: 1px solid #d4d4d4;}
 button.search:hover {background color: #d4d4d4; border-radius: 3px; border: 1px solid #d4d4d4;}
@@ -46,12 +47,17 @@ i.fas.fa-search:hover {background color: #d4d4d4; border-radius: 3px; border: 1p
 .byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auoto;}
 
 .content {max-width: 1600px; margin: 0 auto;}
-.col-sm-6 {margin: 0 auto;;}
+.col-sm-6 {margin: 0 auto; display: inline;}
+.col-sm-3 {display: inline-block; margin: 0 auto;}
+.col-sm-12 {padding-top: 10px;}
 #story1 {border-right: 1px solid #e2e2e2; padding-right: 10px;}
-#story2 {margin: 0 auto; width:100%;}
+#story2 {display: inline;}
+#story3 {display: inline;}
+#story4 {margin: 0 auto; width: 100%; border-top: 1px solid #e2e2e2; }
 
 
-#photo1, #photo2, #photo3 {width: 100%;}
+#photo1 {width: 100%;}
+#photo2, #photo3 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
 .caption {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); text-align: right;}
 .summary {margin-bottom: 5px;}
