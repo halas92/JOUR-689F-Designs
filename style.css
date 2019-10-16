@@ -2,7 +2,8 @@
 
 @media only screen and (max-width: 600px) {
     .headline, .container, .title {font-size: 20px; margin: 0 auto; width: 100%;}
-    .navbar, .col-sm-6, .col-sm-3 {margin: 0 auto; width: 100%;}
+    .navbar, .col-sm-6, .col-sm-3, #story1, #story2, #story3, #story4 {margin: 0 auto; width: 100%;}
+    #story1.border {display: none;}
     .navbar-title {margin: 0 auto;}}
 
 @media only screen and (max-width: 600px) {#photo1 {margin: 0 auto; width: 100%; height: 150;} .photos {width: 100%; height: 150;}}
@@ -24,12 +25,14 @@ a.navbar-title {display: inline-block; border-radius: 3px; margin: 0 auto; text-
 .nav-title {margin: 0 auto; list-style-type: none;}
 button.login {background-color: #6288a5; border: 1px solid #326891; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 11px; font-weight: 700; padding: 11px 12px 8px; border-radius: 3px; letter-spacing: .05em; line-height: 11px; float:right; margin-left: 20px; margin-right: 60px;}
 button.login:hover {background-color: #326891;}
-button.menu-bars:hover {background color: #d4d4d4; border-radius: 3px; border: 1px solid #d4d4d4;}
-button.search:hover {background color: #d4d4d4; border-radius: 3px; border: 1px solid #d4d4d4;}
+button.menu-bars {background-color: inherit; width: 40px; margin-left: 60px; display: inline-block; color: black; border: none;}
+i.fas.fa-bars {background color: #d4d4d4; border-radius: 3px;}
+button.search {background-color: inherit; color: black; display: inline-block; border: none;}
+i.fas.fa-search {background color: #d4d4d4; border-radius: 3px;}
 
 .title {font-family: 'Georgia', 'Times New Roman', times, serif; font-weight: 900; color: black; font-size: 48px; margin-top: 100px; line-height: 48px;}
-.subtitle {font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 17px; color: rgb(102, 102, 102); font-weight: 400; line-height: 23px; border-bottom: 1px solid #bfbfbf; padding-bottom: 15px;}
-.header-item {font-family: 'Helvetica', arial, sans-serif; font-size: 11px; line-height: 11px; display: inline; margin-top: 5px; margin-bottom: 5px;}
+.subtitle {font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 17px; color: rgb(102, 102, 102); font-weight: 400; line-height: 23px; border-bottom: 1px solid #bfbfbf;}
+.header-item {font-family: 'Helvetica', arial, sans-serif; font-size: 11px; line-height: 11px; display: inline; margin-bottom: 5px;}
 .header {border-bottom: 2px solid black;}
 
 p {text-align:left; line-height:180%; font-family: 'Georgia', 'Times New Roman', serif; font-size: 15px;}
@@ -37,11 +40,6 @@ p {text-align:left; line-height:180%; font-family: 'Georgia', 'Times New Roman',
 ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 .nav-item, .nav-item-active, .nav-link {display: inline; font-size: 1em; color: black; font-family: 'Helvetica', sans-serif;}
 .navbar {font-family: 'Montserrat', sans-serif; color: inherit; width: 100%; border-bottom: 1px solid #bfbfbf;}
-
-i.fas.fa-bars::before {margin-right: 8px; margin-left: 60px; padding-right: 10px; display: inline-block; border-radius: 3px;}
-i.fas.fa-bars:hover {background color: #d4d4d4; border-radius: 3px; border: 1px solid #d4d4d4;}
-i.fas.fa-search::before {margin-right: 8px; display: inline-block; border-radius: 3px;}
-i.fas.fa-search:hover {background color: #d4d4d4; border-radius: 3px; border: 1px solid #d4d4d4;}
 
 .headline {font-family: 'Georgia', 'Times New Roman', serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto;}
 .byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auoto;}
