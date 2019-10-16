@@ -3,7 +3,6 @@
 @media only screen and (max-width: 600px) {
     .headline, .container, .title {font-size: 20px; margin: 0 auto; width: 100%;}
     .navbar, .col-sm-6, .col-sm-3, #story1, #story2, #story3, #story4 {margin: 0 auto; width: 100%;}
-    #story1.border {display: none;}
     .navbar-title {margin: 0 auto;}}
 
 @media only screen and (max-width: 600px) {#photo1 {margin: 0 auto; width: 100%; height: 150;} .photos {width: 100%; height: 150;}}
@@ -14,7 +13,7 @@
 
 @media only screen and (max-width: 600px) {.photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}}
 
-@media only screen and (max-width: 600px) {.nav-item, .nav-item-active, .nav-link, .navbar, ul.navbar-nav, .navbar-toggler, .navbar-toggler-icon {margin: 0 auto; width: 100%; color: black;}}
+@media only screen and (max-width: 600px) {.nav-link, .button.search, .button.login {display: none;}}
 
 
 a:hover {text-decoration: underline; color: black;}
@@ -46,11 +45,11 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 
 .content {max-width: 1600px; margin: 0 auto;}
 .col-sm-6 {margin: 0 auto; display: inline;}
-.col-sm-3 {display: inline-block; margin: 0 auto;}
+.col-sm-3 {display: inline-block; margin: 0 auto; min-width: 200px;}
 .col-sm-12 {padding-top: 10px;}
-#story1 {border-right: 1px solid #e2e2e2; padding-right: 10px;}
-#story2 {display: inline;}
-#story3 {display: inline;}
+#story1 {border-right: 1px solid #e2e2e2; padding-right: 15px;} @media (max-width:600px;) {#story1{border-right: none; border-bottom: 1px solid #e2e2e2;}}
+#story2 {display: inline; min-width: 200px;}
+#story3 {display: inline; min-width: 200px;}
 #story4 {margin: 0 auto; width: 100%; border-top: 1px solid #e2e2e2; }
 
 
