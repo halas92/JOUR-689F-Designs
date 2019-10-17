@@ -1,4 +1,4 @@
-.container {width: 100%; max-width: 1600px; margin: 0 auto; padding-left: 60px; padding-right: 60px;}
+.container {width: 100%; max-width: 1400px; margin: 0 auto; padding-left: 60px; padding-right: 60px;}
 
 @media only screen and (max-width: 600px) {
     .headline, .container, .title {font-size: 20px; margin: 0 auto; width: 100%; padding-left: 0px; padding-right: 0px;}
@@ -35,10 +35,9 @@ i.fas.fa-bars {background color: #d4d4d4; border-radius: 3px;}
 button.search {background-color: inherit; color: black; display: inline-block; border: none;}
 i.fas.fa-search {background color: #d4d4d4; border-radius: 3px;}
 
-.title {font-family: 'Georgia', 'Times New Roman', times, serif; font-weight: 900; color: black; font-size: 48px; margin-top: 100px; line-height: 48px;}
-.subtitle {font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 17px; color: rgb(102, 102, 102); font-weight: 400; line-height: 23px; border-bottom: 1px solid #bfbfbf;}
-.header-item {font-family: 'Helvetica', arial, sans-serif; font-size: 11px; line-height: 11px; display: inline; margin-bottom: 5px;}
-.header {border-bottom: 2px solid black;}
+.title {margin-bottom: 16px; max-width: 420px; font-family: 'Georgia', 'Times New Roman', times, serif; font-weight: 200; color: black; font-size: 40px; margin-top: 100px; line-height: 50px;}
+.subtitle {max-width: 660px; margin-left: auto; margin-right: auto; font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 24px; color: rgb(102, 102, 102); font-weight: 300; line-height: 30px;}
+.header {max-width: 660px; margin-bottom: 25px; margin-left: auto; margin-right: auto;}
 
 p {text-align:left; line-height:180%; font-family: 'Georgia', 'Times New Roman', serif; font-size: 15px;}
 
