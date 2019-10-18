@@ -10,7 +10,7 @@
 @media only screen and (max-width: 600px) {
   .subtitle {font-size: 14px;}
   .introtext, .chaptertext, .navbar, .caption, #subheading, .navbar navbar-expand-lg navbar-dark bg-inherit, .row, .byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}}
-@media only screen and (max-width: 600px) {.photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}}
+@media only screen and (max-width: 600px) {.photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}}
 @media only screen and (max-width: 600px) {a.nav-link, button.search, button.login, i.fas.fa-search {display: none;}
     button.menu-bars {margin-left: 0px;}}
 
@@ -45,7 +45,7 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 .navbar {font-family: 'Montserrat', sans-serif; color: inherit; width: 100%; border-bottom: 1px solid #bfbfbf;}
 
 .headline {font-family: 'Georgia', 'Times New Roman', serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto;}
-.byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auoto;}
+.byline {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto;}
 
 .content {max-width: 1600px; margin: 0 auto;}
 .col-sm-6 {margin: 0 auto; display: inline;}
@@ -56,9 +56,7 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 #story3 {display: inline; min-width: 200px;}
 #story4 {margin: 0 auto; width: 100%;}
 
-
-#photo1 {width: 100%;}
-#photo2, #photo3 {width: 100%;}
+#photo1, #photo2, #photo3, #photo4 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
 .caption {font-size: 10px; font-weight: 500; font-family: 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); text-align: right;}
 .summary {margin-bottom: 5px;}
@@ -66,13 +64,10 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 #footer {width: 100%;
 margin: 0 auto;
 background-color: black;
-height: 75px;
+height: 85px;
 font-size: 12px;
 color: white;
 font-family: 'Helvetica', 'Arial', sans-serif;
 display: block;
 margin-top: 30px;
-margin-bottom: 5px;
 text-align: center;}
-
-#ftext {padding-bottom: 10px;}
