@@ -14,7 +14,7 @@
 
 @media only screen and (min-width: 600px) {
     #story2 {padding-left: 12px; margin-left:10px;}
-    #story5 {border-left: 1px solid #e2e2e2; padding-left: 15px;}
+    #story4 {border-right: 1px solid #e2e2e2; padding-right: 15px;}
     .col-sm-3 {border-left: 1px solid #e2e2e2;}
     .row {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
     button.menu-bars {margin-left: 60px;}}
