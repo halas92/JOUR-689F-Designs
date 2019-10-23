@@ -12,7 +12,8 @@
     .photos, #photo1, #photo2, #photo3 {margin: 0 auto; width: 100%; height: auto;}
     .byline, .date {margin-bottom: 15px;}
     a.nav-link, button.search, button.login, i.fas.fa-search {display: none;}
-    button.menu-bars {margin-left: 0px;}}
+    li.nav-title {margin: auto;}
+    button.menu-bars {margin-left: 0px; padding-left: 2px; padding-right: 2px;}}
 
 @media only screen and (min-width: 600px) {
     .col-sm-3 {border-left: 1px solid #e2e2e2;}
