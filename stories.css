@@ -24,14 +24,15 @@
     .title {font-size: 2.975rem; line-height: 3.4375rem;}
     .subtitle {font-size: 1.5rem; line-height: 1.9375rem;}
     .caption {font-size: .9375rem; line-height: 1.25rem;}
-    .photocred {font-size: .8125rem; line-height: 1.125rem;}}
+    .photocred {font-size: .8125rem; line-height: 1.125rem;}
+    li.nav-title {padding-right: 60px;}}
 
 a:hover {text-decoration: underline; color: black;}
 a {color: black;}
 a.nav-link {color: black; font-weight: 700;}
 a.nav-link:hover {text-decoration: underline;}
 a.navbar-title {display: inline-block; border-radius: 3px; margin: 0 auto; text-align: center;}
-li.nav-title {margin: 0 auto; padding-right: 60px; list-style-type: none;}
+li.nav-title {margin: 0 auto; list-style-type: none;}
 #logo {margin: auto;}
 button.login {background-color: #6288a5; border: 1px solid #326891; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 11px; font-weight: 700; padding: 11px 12px 8px; border-radius: 3px; letter-spacing: .05em; line-height: 11px; float:right; margin-left: 20px; margin-right: 60px;}
 button.login:hover {background-color: #326891;}
