@@ -70,6 +70,9 @@ div.fa-link::before {display: none;}
 a#arrow {scroll-behavior: smooth; transition: .5s;}
 i.fas.fa-chevron-circle-down::before {color: red; scroll-behavior: smooth; transition: .5s;}
 #hero-caption {font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); font-size: 14px; padding-top: 10px; text-align: center;}
+p.first-letter  {font-size: 36px; background: red; color: white; line-height: .8; margin-top: .1em; margin-left: -.05em; margin-right: .05em; margin-bottom: 0px; font-weight: 400; padding: 5px 10px 5px 10px; width: 50px; display: inline-flex;}
+p.first-line {text-transform: uppercase; font-weight: bold; display: inline-flex; margin-bottom: 0px;}
+p#first-line {display: inline-flex;}
 
 .headline {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto; padding-bottom: 5px;}
 .byline {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto; padding-bottom: 10px;}
