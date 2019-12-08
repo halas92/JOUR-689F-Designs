@@ -71,8 +71,9 @@ p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia
 #header {font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; text-decoration: underline;}
 #subhead {font-family: 'Noto Sans', 'Helvetica', 'Montserrat', sans-serif; margin: 0 auto; font-weight: 200;}
 div.fa-link::before {display: none;}
-.fa-link {vertical-align: top; scroll-behavior: smooth; transition: .5s;}
+.fa-link {vertical-align: top; scroll-behavior: smooth;}
 a#arrow {scroll-behavior: smooth; transition: .5s;}
+a#arrow:hover {font-size: 150%;}
 i.fas.fa-chevron-circle-down::before {color: red; scroll-behavior: smooth; transition: .5s;}
 .hero-caption {font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); font-size: 14px; padding-top: 10px; text-align: center;}
 p.first-letter  {font-size: 36px; background: red; color: white; line-height: .8; margin-top: .1em; margin-left: -.05em; margin-right: .05em; margin-bottom: 0px; font-weight: 400; padding: 5px 10px 5px 10px; width: 50px; display: inline-flex;}
