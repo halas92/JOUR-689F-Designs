@@ -48,6 +48,7 @@ a.icon-sub-link, a.page-link-aux {color: rgba(0,0,0,0.6);}
 a.icon-sub-link:hover, a.page-link-aux:hover {text-decoration: none; color: rgba(0,0,0,1);}
 .page-links {font-family: 'Helvetica', 'Arial', sans-serif; font-weight: 600; color: rgba(0,0,0,0.6); display: inline-block;}
 .page-links:hover {color: rgba(0,0,0,1); text-decoration: none;}
+#current-page {border: 2px solid black; border-radius: 3px;}
 .icon-links {display: inline-block; text-align: center; float: right;}
 #footer-link {color: rgba(255,255,255,0.6);}
 #footer-link:hover {color: rgba(255,255,255,1); text-decoration: none;}
