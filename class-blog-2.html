@@ -11,7 +11,7 @@ initial-scale=1, shrink-to-fit=no">
 <!-- JQuery Script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <!-- Font Awesome CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <!--Google Fonts -->
@@ -19,15 +19,15 @@ initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
 <!-- Load c3.css -->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
-   <!-- Load our CSS -->
-   <link rel="stylesheet" href="blog.css">
-   <!-- Load d3.js and c3.js -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+<!-- Load our CSS -->
+<link rel="stylesheet" href="blog.css">
+<!-- Load d3.js and c3.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 <!--Tab icon-->
-   <link rel="shortcut icon" href="blog-icon.jpg" type="image/x-icon">
-   <link rel="icon" href="blog-icon.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="blog-icon.jpg" type="image/x-icon">
+<link rel="icon" href="blog-icon.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -52,7 +52,6 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 </script>
 <!--Start Hero container-->
 <div class="hero-container">
-<img src="Hero02.jpg" width=100% div id="hero-image">
 <div class="hero-slide">
 <div id="header">Odysseys in Craft and Magic</div>
 <div id="subhead">Notes on the techniques of Feature Writing from JOUR 371/689F at the University of Maryland.</div>
@@ -66,8 +65,6 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 
 <div class="container">
 <p class="hero-caption">Photo and digital illustration by <a href="https://halas92.github.io/Portfolio/">Horus Alas.</a></p>
-<div class="row">
-  <div class="col-sm-9">
 <div class="headline" style="padding-top: 40px; text-decoration: underline;">Posts from the Fall 2019 semester, continued</div>
 <div class="posts" div id=post1>
 <div class="headline">The writing process comes down to what you hate the least.</div>
@@ -101,20 +98,31 @@ As the sentence continues, “f” sounds come to the fore, but rather than a ha
 This line taught me that sound can be every bit as important as imagery. Words themselves can sound either harsh or mellow, and how we arrange them gives an overall piece a tenor and character. Combined with rich imagery and other sensory details, sound can immediately transport the reader and keep them strung along by the effusion of words.</p>
 </div>
 
+<div class="end-links">
 <div class="headline">See more entries</div>
 <div class="pagination">
-  <a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html">&laquo;</a>
-  <a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html">1</a>
-  <a href="#">2</a>
-  <a href="#">&raquo;</a>
+<div class="page-link-container">
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="nav-arrow"><i class="fas fa-arrow-left"></i></a>
+<p class="page-link-subtitle"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="page-link-aux">PREV</a></p>
+</div>
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="page-links">1</a>
+<a href="#" class="page-links" id="current-page">2</a>
+<div class="page-link-container" style="display: none;">
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="nav-arrow"><i class="fas fa-arrow-right"></i></a>
+<p class="page-link-subtitle"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="page-link-aux">NEXT</a></p>
+</div>
+</div>
+<div class="icon-links">
+<a class="nav-arrow" href="#"><i class="fas fa-arrow-up"></i></a>
+<a class="icon-sub-link" href="#"><p class="icon-subtitle">TOP</p></a>
+</div>
 </div>
 
-</div>
-</div>
 </div><!--end container-->
 
-<div id=footer><div id="ftext"><br>Created by Horus Alas for JOUR 371/689F: Feature Writing.<br><br>
-  <a href="https://halas92.github.io/Portfolio/" a id="home-link">Copyright 2019 Horus Alas</a></div></div>
+<div id=footer><div id="footer-text"><br>Created by Horus Alas for JOUR 689F: Feature Writing<br><br>
+&copy; 2019 <a href="https://halas92.github.io/Portfolio/" id="footer-link">Horus Alas.</a> All rights reserved.</div>
+<a id="footer-logo" href="https://halas92.github.io/Portfolio/design.html">H |</a></div>
 
 </body>
 </html>

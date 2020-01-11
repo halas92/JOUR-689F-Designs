@@ -50,8 +50,9 @@ a.icon-sub-link:hover, a.page-link-aux:hover {text-decoration: none; color: rgba
 .page-links:hover {color: rgba(0,0,0,1); text-decoration: none;}
 #current-page {border: 2px solid black; border-radius: 3px;}
 .icon-links {display: inline-block; text-align: center; float: right;}
-#footer-link {color: rgba(255,255,255,0.6);}
-#footer-link:hover {color: rgba(255,255,255,1); text-decoration: none;}
+#footer-logo {display: inline-block; margin-top: inherit; float: right; font-size: 16px; font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif; font-weight: 700;}
+#footer-link, #footer-logo {color: rgba(255,255,255,0.6);}
+#footer-link:hover, #footer-logo:hover {color: rgba(255,255,255,1); text-decoration: none;}
 li.nav-title {margin: 0 auto; list-style-type: none;}
 #logo {margin: auto;}
 ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
@@ -76,6 +77,7 @@ p.icon-subtitle {font-family: 'Helvetica', 'Arial', sans-serif; font-weight: 600
 p.page-link-subtitle {font-family: 'Helvetica', 'Arial', sans-serif; font-weight: 600;}
 .headline {font-family: 'Georgia', 'Times New Roman', serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto;}
 .byline {font-size: .9375rem; line-height: 1.25rem; display: inline-block; letter-spacing: .02em; font-weight: 700; font-family: 'Helvetica', arial, sans-serif; color: #333; margin: 0; margin-bottom: 30px;}
+#footer-text {display: inline-block; width: 80%; margin: 0 auto;}
 
 /*Containers, general properties*/
 html {scroll-behavior: smooth;}
@@ -85,7 +87,7 @@ html {scroll-behavior: smooth;}
 .end-links {width: 100%; margin: 0 auto; height: auto; display: inline-block; margin-bottom: 30px; padding-left: 5%; padding-right: 5%;}
 .pagination {display: inline; float: left; list-style: none; width: 80%; text-align: left; justify-content: flex-start;}
 .page-link-container {text-align: center; display: inline-grid;}
-#footer {width: 100%; margin: 0 auto; background-color: black; height: 85px; color: white; font-family: 'Helvetica', 'Arial', sans-serif; display: block; margin-top: 30px; text-align: center;}
+#footer {width: 100%; margin: 0 auto; background-color: black; height: 85px; color: white; font-family: 'Helvetica', 'Arial', sans-serif; display: block; margin-top: 30px; padding-left: 2%; padding-right: 2%; text-align: center;}
 
 /*Images*/
 #photo1 {max-width: 900px; margin: 0 auto; margin-bottom: 40px; text-align: left;}

@@ -11,7 +11,7 @@ initial-scale=1, shrink-to-fit=no">
 <!-- JQuery Script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <!-- Font Awesome CSS -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <!--Google Fonts -->
@@ -19,15 +19,15 @@ initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
 <!-- Load c3.css -->
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
-   <!-- Load our CSS -->
-   <link rel="stylesheet" href="blog.css">
-   <!-- Load d3.js and c3.js -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+<!-- Load our CSS -->
+<link rel="stylesheet" href="blog.css">
+<!-- Load d3.js and c3.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 <!--Tab icon-->
-   <link rel="shortcut icon" href="blog-icon.jpg" type="image/x-icon">
-   <link rel="icon" href="blog-icon.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="blog-icon.jpg" type="image/x-icon">
+ <link rel="icon" href="blog-icon.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -52,7 +52,6 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 </script>
 <!--Start Hero container-->
 <div class="hero-container">
-<img src="Hero02.jpg" width=100% div id="hero-image">
 <div class="hero-slide">
 <div id="header">Odysseys in Craft and Magic</div>
 <div id="subhead">Notes on the techniques of Feature Writing from JOUR 371/689F at the University of Maryland.</div>
@@ -66,13 +65,11 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 
 <div class="container">
 <p class="hero-caption">Photo and digital illustration by <a href="https://halas92.github.io/Portfolio/">Horus Alas.</a></p>
-<div class="row">
-  <div class="col-sm-9">
-    <div id="intro-section">
-  <p class="title">Class Blog for JOUR 371/689F</p>
+<div id="intro-section">
+<p class="title">Class Blog for JOUR 371/689F</p>
 <div class="hero-caption" style="text-align: left; margin-bottom: 15px;">Design by <a href="https://halas92.github.io/Portfolio/">Horus Alas</a></div>
 <p class="first-letter">T</p><p class="first-line">his digital space will serve as a platform for notes and observations</p><p id="first-graph">from students in DeNeen Brown's Feature Writing class at the University of Maryland. As students hone their writing skills, check here for their discussions on feature writing and reporting, techniques from award-winning writers, and overall class progress. This page was created by master's graduate Horus Alas and launched during the Fall 2019 semester. It will be updated to host work from subsequent classes.<br><br></p>
-<p class="pull-quote">"There are years that ask questions and years that answer." - Zora Neale Hurston</p>
+<p class="pull-quote">"There are years that ask questions and years that answer."<br>&mdash;Zora Neale Hurston</p>
 </p></div>
 <div class="headline" div id="semester1" style="padding-top: 20px; text-decoration: underline;">Posts from the Fall 2019 semester</div>
 <div class="posts" div id=post1>
@@ -161,20 +158,31 @@ I’ll use two stories as an example: the first, a feature I did on an herb shop
 It’s a foolproof method, honestly.</p>
 </div>
 
+<div class="end-links">
 <div class="headline">See more entries</div>
 <div class="pagination">
-  <a href="#">&laquo;</a>
-  <a href="#">1</a>
-  <a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html">2</a>
-  <a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html">&raquo;</a>
+<div class="page-link-container" style="display: none;">
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="nav-arrow"><i class="fas fa-arrow-left"></i></a>
+<p class="page-link-subtitle"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog.html" class="page-link-aux">PREV</a></p>
+</div>
+<a href="#" class="page-links" id="current-page">1</a>
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="page-links">2</a>
+<div class="page-link-container">
+<a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="nav-arrow"><i class="fas fa-arrow-right"></i></a>
+<p class="page-link-subtitle"><a href="https://halas92.github.io/JOUR-689F-Designs/class-blog-2.html" class="page-link-aux">NEXT</a></p>
+</div>
+</div>
+<div class="icon-links">
+<a class="nav-arrow" href="#"><i class="fas fa-arrow-up"></i></a>
+<a class="icon-sub-link" href="#"><p class="icon-subtitle">TOP</p></a>
+</div>
 </div>
 
-</div>
-</div>
 </div><!--end container-->
 
-<div id=footer><div id="ftext"><br>Created by Horus Alas for JOUR 371/689F: Feature Writing.<br><br>
-  <a href="https://halas92.github.io/Portfolio/" a id="home-link">Copyright 2019 Horus Alas</a></div></div>
+<div id=footer><div id="footer-text"><br>Created by Horus Alas for JOUR 689F: Feature Writing<br><br>
+&copy; 2019 <a href="https://halas92.github.io/Portfolio/" id="footer-link">Horus Alas.</a> All rights reserved.</div>
+<a id="footer-logo" href="https://halas92.github.io/Portfolio/design.html">H |</a></div>
 
 </body>
 </html>
